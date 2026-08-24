@@ -1,8 +1,45 @@
 # 🛒 TechStore
 
-A modern, fully responsive e-commerce web application built with React.js — featuring real-time cart management, wishlist functionality, product filtering and sorting, and persistent local storage.
+A modern, fully responsive e-commerce web application built with React.js.
 
-![TechStore Banner](screenshot.png)
+![TechStore Banner](screenshots/cover-image.png)
+
+## ✨ Features
+
+- 🛍️ Product browsing with search, filter & sort
+- 🛒 Shopping cart with quantity management
+- ❤️ Wishlist with real-time count
+- 💾 Persistent data with localStorage
+- 🎨 Premium dark theme UI
+- 📱 Fully responsive design
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Hero Section
+![Hero Section](screenshots/hero.png)
+
+### 🛍️ Product Grid
+![Product Grid](screenshots/products.png)
+
+### ❤️ Wishlist Page
+![Wishlist](screenshots/wishlist.png)
+
+### 🔍 Filter & Sort
+![Filter & Sort](screenshots/filter-sort.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** — UI library with Hooks
+- **CSS3** — Custom styling with dark theme
+- **localStorage** — Persistent data storage
+- **Vite** — Build tool
+- **Git & GitHub** — Version control
+
+---
 
 ## 🚀 Live Demo
 
@@ -10,53 +47,17 @@ A modern, fully responsive e-commerce web application built with React.js — fe
 
 ---
 
-## ✨ Features
+## 📦 Installation
 
-### 🛍️ Product Browsing
-- Browse products with images, prices, ratings, and discounts
-- Real-time search by product name
-- Filter products by brand
-- Sort by price (low-high, high-low) and rating
-- "Best Seller" badges on popular products
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/techstore.git
 
-### 🛒 Shopping Cart
-- Add/remove items with quantity management
-- Real-time cart total and item count
-- Persistent cart data with localStorage
-- Cart dropdown for quick access
+# Navigate to project directory
+cd techstore
 
-### ❤️ Wishlist
-- Add/remove products to wishlist
-- View all wishlisted items in dedicated section
-- Persistent wishlist data with localStorage
-- Real-time wishlist count in navbar
+# Install dependencies
+npm install
 
-### 🎨 UI/UX
-- Premium dark theme with glassmorphism effects
-- Fully responsive (mobile, tablet, desktop)
-- Smooth scroll navigation
-- Hero section with animated gradient
-- Fixed navbar with dropdowns
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-- **React.js** — UI library with Hooks (useState, useEffect, useRef)
-- **CSS3** — Custom styling with dark theme
-- **localStorage** — Persistent data storage
-- **Vite** — Build tool and development server
-- **Git & GitHub** — Version control
-
-### Core React Concepts
-- `useState` — State management for cart, wishlist, filters
-- `useEffect` — Side effects for localStorage persistence
-- `useRef` — DOM references for smooth scrolling
-- `Props` — Data passing between components
-- `Conditional Rendering` — Tabs, dropdowns, empty states
-- `Array Methods` — Filter, map, reduce for data manipulation
-
----
-
-## 📁 Project Structure
+# Start development server
+npm run dev
