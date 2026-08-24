@@ -43,8 +43,7 @@ A modern, fully responsive e-commerce web application built with React.js.
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.vercel.app)
-
+[View Live Demo](https://techstore-project-js.netlify.app)
 ---
 
 ## 📦 Installation
