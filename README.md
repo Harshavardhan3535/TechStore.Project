@@ -51,7 +51,8 @@ A modern, fully responsive e-commerce web application built with React.js.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/techstore.git
+git clone https://github.com/Harshavardhan3535/TechStore.Project.git
+cd TechStore.Project
 
 # Navigate to project directory
 cd techstore
